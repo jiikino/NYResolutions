@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NY Resolution</title>
+    <title>New Year Resolutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>New Year Resolutions</h1>
+        
+        <!-- Form to Add Resolutions -->
+        <form id="resolutionForm">
+            <input type="text" id="resolutionInput" placeholder="Add a new resolution" required>
+            <button type="submit">Add</button>
+        </form>
+
+        <!-- List of Resolutions -->
+        <ul id="resolutionList"></ul>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
